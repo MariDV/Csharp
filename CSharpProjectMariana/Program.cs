@@ -61,11 +61,39 @@ namespace CSharpProjectMariana
             Console.WriteLine($"the size of double is {sizeof(double)} bytes");
             Console.WriteLine($"\n");
 
-            float floatVar = 3.75F;
+            float floatVar = 2.99f;
             Console.WriteLine($"the floatVar value is {doubleVar}");
             Console.WriteLine($"the max value for float is: {float.MaxValue}");
             Console.WriteLine($"the max value for float is: {float.MinValue}");
             Console.WriteLine($"the size of float is {sizeof(float)} bytes");
+            Console.WriteLine($"\n");
+
+            int intvar = -12345;
+            Console.WriteLine($"the intvar value is {intvar}");
+            Console.WriteLine($"the max value for intvar is: {string.Format ("{0:no}", int.MaxValue)}");
+            Console.WriteLine($"the max value for intvar is: {string.Format("{0:no}", int.MinValue)}");
+            Console.WriteLine($"the size of intvar is {sizeof(int)} bytes");
+            Console.WriteLine($"\n");
+
+            uint uintvar = 12345;
+            Console.WriteLine($"the uintvar value is {uintvar}");
+            Console.WriteLine($"the max value for uintvar is: {string.Format("{0:no}", uint.MaxValue)}");
+            Console.WriteLine($"the max value for uintvar is: {string.Format("{0:no}", uint.MinValue)}");
+            Console.WriteLine($"the size of uintvar is {sizeof(uint)} bytes");
+            Console.WriteLine($"\n");
+
+            int intbinaryVar = 0b11_0110_1010_1010_1010_0001;
+            int hexadecimalVar = 0x00ff_05ff;
+            Console.WriteLine($"the intbinaryVar value is {intbinaryVar}");
+            Console.WriteLine($"the hexadecimalVar value is {hexadecimalVar}");
+            Console.WriteLine($"\n");
+
+
+            long logvar = 1234567891234567l;
+            Console.WriteLine($"the longvar value is {longvar}");
+            Console.WriteLine($"the max value for longvar is: {string.Format("{0:no}", long.MaxValue)}");
+            Console.WriteLine($"the max value for longvar is: {string.Format("{0:no}", long.MinValue)}");
+            Console.WriteLine($"the size of long is {sizeof(long)} bytes");
             Console.WriteLine($"\n");
 
             Console.ReadLine();
