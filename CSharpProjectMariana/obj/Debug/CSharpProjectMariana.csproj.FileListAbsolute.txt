@@ -5,3 +5,10 @@ C:\Users\mariana.vilela\Desktop\Classes-ITD-2019\CSharp\CSharpProjectMariana\CSh
 C:\Users\mariana.vilela\Desktop\Classes-ITD-2019\CSharp\CSharpProjectMariana\CSharpProjectMariana\obj\Debug\CSharpProjectMariana.csproj.CoreCompileInputs.cache
 C:\Users\mariana.vilela\Desktop\Classes-ITD-2019\CSharp\CSharpProjectMariana\CSharpProjectMariana\obj\Debug\CSharpProjectMariana.exe
 C:\Users\mariana.vilela\Desktop\Classes-ITD-2019\CSharp\CSharpProjectMariana\CSharpProjectMariana\obj\Debug\CSharpProjectMariana.pdb
+C:\Users\mariana.vilela\Documents\CSharpProjectMariana\CSharpProjectMariana\bin\Debug\CSharpProjectMariana.exe.config
+C:\Users\mariana.vilela\Documents\CSharpProjectMariana\CSharpProjectMariana\bin\Debug\CSharpProjectMariana.exe
+C:\Users\mariana.vilela\Documents\CSharpProjectMariana\CSharpProjectMariana\bin\Debug\CSharpProjectMariana.pdb
+C:\Users\mariana.vilela\Documents\CSharpProjectMariana\CSharpProjectMariana\obj\Debug\CSharpProjectMariana.csprojAssemblyReference.cache
+C:\Users\mariana.vilela\Documents\CSharpProjectMariana\CSharpProjectMariana\obj\Debug\CSharpProjectMariana.csproj.CoreCompileInputs.cache
+C:\Users\mariana.vilela\Documents\CSharpProjectMariana\CSharpProjectMariana\obj\Debug\CSharpProjectMariana.exe
+C:\Users\mariana.vilela\Documents\CSharpProjectMariana\CSharpProjectMariana\obj\Debug\CSharpProjectMariana.pdb
