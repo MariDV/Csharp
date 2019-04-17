@@ -10,7 +10,16 @@ namespace CSharpProjectMariana
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello C#");
+            //this is single line comment
+            /*
+             this is multi line comment
+             boolean value is true or false
+             you have to initialize boolean value before using it
+             */
+            bool booleanVar = false;
+            Console.WriteLine("the booleanVar value is either {0} or {1}", booleanVar, !booleanVar);
+            Console.WriteLine("the booleanVar value is either " + booleanVar + "or " + !booleanVar);
+            Console.WriteLine($"the booleanVar value is either {booleanVar} or {!booleanVar}");
             Console.ReadLine();
         }
     }
