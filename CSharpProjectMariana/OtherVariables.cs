@@ -62,10 +62,39 @@ namespace CSharpProjectMariana
                 Console.WriteLine($"testString.Replace(one,other) \t {testString.Replace("sharp", "#!").Trim()}");
                 Console.WriteLine($"testString.Replace(one,other) \t {testString.Replace("sharp", "#!").Trim().ToUpper()}");
                 Console.WriteLine($"testString.Replace(one,other) \t {testString.Replace("sharp", "#!").Trim().ToUpper().Remove(5,4).Remove(7,1)}");
+                Console.WriteLine("\n");
+
+            string e = "my name is ";
+            string m = "what ";
+            string i = "my name is ";
+            string n = "what ";
+            string e1 = "my name is ";
+            string m1 = "slim shaddy ";
+            Console.WriteLine(e + m + i + n + e1 + m1);
+            Console.WriteLine("\n");
+
+            StringBuilder myFavoriteSong = new StringBuilder("LET IT GO!!");
+            myFavoriteSong.AppendLine("let it go ");
+            myFavoriteSong.AppendLine("let it go ");
+            myFavoriteSong.AppendLine("can't hold it back anymore ");
+            myFavoriteSong.AppendLine("let it go ");
+            myFavoriteSong.AppendLine("turn away and slam the door. ");
+            myFavoriteSong.AppendLine("the perfect girl is gone");
+            Console.WriteLine(myFavoriteSong.ToString());
 
 
+            string myFolderPath1 = "C:\\Users\\mariana.vilela\\Documents\\studentManagementApp";
+            string myFolderPath2 = @"C:\Users\mariana.vilela\Documents\studentManagementApp";
 
+            string myString = "myke, wade, alex, naoya, jose, mariana, daniel, sina, siamak";
+            string[] splittedString = myString.Split(new Char[] { ',' }); //you can add more char
 
+            foreach(string element in splittedString)
+            {
+                Console.WriteLine(element);
+            }
+
+            string separator = new string('#', 30);
 
             Console.ReadLine(); //you need this to see the value when pressing start
 
