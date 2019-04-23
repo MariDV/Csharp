@@ -83,8 +83,8 @@ namespace CSharpProjectMariana
             Console.WriteLine(myFavoriteSong.ToString());
 
 
-            string myFolderPath1 = "C:\\Users\\mariana.vilela\\Documents\\studentManagementApp";
-            string myFolderPath2 = @"C:\Users\mariana.vilela\Documents\studentManagementApp";
+            //string myFolderPath1 = "C:\\Users\\mariana.vilela\\Documents\\studentManagementApp";
+            //string myFolderPath2 = @"C:\Users\mariana.vilela\Documents\studentManagementApp";
 
             string myString = "myke, wade, alex, naoya, jose, mariana, daniel, sina, siamak";
             string[] splittedString = myString.Split(new Char[] { ',' }); //you can add more char
