@@ -36,6 +36,33 @@ namespace CSharpProjectMariana
             string last2digits = stringYear.Substring(2, 2);
             Console.WriteLine(last2digits);
 
+            //operations (+ - 8 / %)
+            Console.WriteLine("1 + 2= " + (1 + 2));//3
+            Console.WriteLine("10-5= "+ (10 -5));//5
+            Console.WriteLine("5*8= "+ (5 *8));//40
+            Console.WriteLine("10/2= "+ (10 /2));//5
+            Console.WriteLine("18%4= "+ (18 %4));//2
+
+            Console.WriteLine(10+5*3); //25
+            Console.WriteLine((10 + 5) * 3); //45
+
+            int number1 = 10;
+            int number2 = 3;
+
+            //double calculationDivide = number1 / number2;
+           
+            //casting to double
+              double calculationDivide =(double) number1 / number2;
+            
+            Console.WriteLine("number1 / number2 = " + calculationDivide);
+            Console.WriteLine(Math.Round(calculationDivide,4));
+
+           
+
+
+
+
+            Console.ReadLine();
         }
     }
 }
