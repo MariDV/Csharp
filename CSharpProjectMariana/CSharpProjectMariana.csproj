@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConditionalStatements.cs" />
+    <Compile Include="ConvertingTypes.cs" />
     <Compile Include="MathLibrary.cs" />
     <Compile Include="OtherVariables.cs" />
     <Compile Include="Program.cs" />
