@@ -35,36 +35,44 @@ namespace CSharpProjectMariana
             }
 
             Console.WriteLine("menu");
-            Console.WriteLine("A- General Programming");
-            Console.WriteLine("B- E-commerce");
-            Console.WriteLine("C- Graphic Design");
-            Console.WriteLine("D- B.A");
-            Console.WriteLine("E- Webdesign");
+            Console.WriteLine("A- Javascript");
+            Console.WriteLine("B- Economy");
+            Console.WriteLine("C- Photoshop");
+            Console.WriteLine("D- How to drink water");
+            Console.WriteLine("E- Sleep like a baby class");
            
-            Console.WriteLine("select one of the options from the menu");
+            Console.WriteLine("select one extra class from the menu");
             string useroption = Console.ReadLine();
             switch (useroption)
             {
                 case "A":
-                    Console.WriteLine("you have selected General Programming");
+                case "a":
+                    Console.WriteLine("you have selected Javascript");
                     break;
                 case "B":
-                    Console.WriteLine("you have selected E-commerce");
+                case "b":
+                    Console.WriteLine("you have selected Economy");
                     break;
                 case "C":
-                    Console.WriteLine("you have selected Graphic Design");
+                case "c":
+                    Console.WriteLine("you have selected Photoshop");
                     break;
                 case "D":
-                    Console.WriteLine("you have selected B.A");
+                case "d":
+                    Console.WriteLine("you have selected How to drink water");
                     break;
                 case "E":
-                    Console.WriteLine("you have selected Webdesign");
+                case "e":
+                    Console.WriteLine("you have selected Sleep like a baby class");
                     break;
                 default:
                     Console.WriteLine("This option does not exist :)");
                     break;
 
             }
+           
+
+
 
 
 
