@@ -41,7 +41,33 @@ namespace CSharpProjectMariana
            
             Console.ReadLine();
 
+            /*Console.WriteLine("Hey how old are you?");
+            string userage = Console.ReadLine();
+            int result;
+            bool ageok = int.TryParse(userage, out result);
+            if (ageok)
+            {
+                switch (result)
+                {
+                    case int checkAge when checkAge <0:
+                        Console.WriteLine("It's invalid, sorry");
+                        break;
+                    case int checkAge when checkAge > 0 && checkAge <= 12:
+                        Console.WriteLine("you are a kid");
+                        break;
+                    case int checkAge when checkAge > 12 && checkAge <= 17:
+                        Console.WriteLine("you are not an adult yet");
+                        break;
+                    case int checkAge when checkAge >=18 && checkAge <100:
+                        Console.WriteLine("you are an adult");
+                        break; 
+                }
+            }*/
+
+
+
         }
+
 
     }
 }

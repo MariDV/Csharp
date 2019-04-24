@@ -70,8 +70,38 @@ namespace CSharpProjectMariana
                 Console.WriteLine("you are not in IT department");
             }
 
-            
+            Console.WriteLine("menu");
+            Console.WriteLine("1- option 1");
+            Console.WriteLine("2- option 2");
+            Console.WriteLine("3- option 3");
+            Console.WriteLine("4- option 4");
+            Console.WriteLine("5- option 5");
+            Console.WriteLine("6- option 6");
 
+            Console.WriteLine("select one of the options");
+            string useroption = Console.ReadLine();
+            switch (useroption)
+            {
+                case "1":
+                    Console.WriteLine("you have selected 1");
+                    break;
+                case "2":
+                    Console.WriteLine("you have selected 2");
+                    break;
+                case "3":
+                    Console.WriteLine("you have selected 3");
+                    break;
+                case "4":
+                    Console.WriteLine("you have selected 4");
+                    break;
+                case "5":
+                    Console.WriteLine("you have selected 5");
+                    break;
+                case "6":
+                    Console.WriteLine("you have selected 6");
+                    break;
+
+            }
 
 
 

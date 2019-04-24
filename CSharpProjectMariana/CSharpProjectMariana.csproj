@@ -46,6 +46,7 @@
     <Compile Include="ConditionalStatements.cs" />
     <Compile Include="ConvertingTypes.cs" />
     <Compile Include="MathLibrary.cs" />
+    <Compile Include="minitask.cs" />
     <Compile Include="OtherVariables.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
