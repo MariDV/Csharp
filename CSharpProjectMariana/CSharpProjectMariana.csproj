@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classexercise.cs" />
     <Compile Include="ConditionalStatements.cs" />
     <Compile Include="ConvertingTypes.cs" />
     <Compile Include="loops.cs" />
