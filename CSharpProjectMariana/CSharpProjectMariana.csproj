@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Arrays.cs" />
+    <Compile Include="ArraysLibrary.cs" />
     <Compile Include="Classexercise.cs" />
     <Compile Include="ConditionalStatements.cs" />
     <Compile Include="ConvertingTypes.cs" />
