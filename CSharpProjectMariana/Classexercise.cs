@@ -47,23 +47,25 @@ namespace CSharpProjectMariana
             Console.WriteLine("Please insert the first number ");
             string numeros="";
             double sumav = 0;
-            double nums = 1;
-            
+            int nums = 0;
+
             while (numeros != "-3")
             {
                 numeros = Console.ReadLine();
-                Console.WriteLine($"That's number #{nums}: {numeros}");
+                if (numeros == "-3") break;
                 sumav += Double.Parse(numeros);
-                nums += 1;
-                if (numeros == "-3")
-                {
-                    Console.WriteLine($"You inserted {nums - 1} numbers");
-                    Console.WriteLine($"The average of your numbers is: {(sumav / (nums-1))}");
-                }
+                Console.WriteLine($"What's number #{nums}? {numeros}");
+
+                nums++;
+            }
+                    Console.WriteLine($"You inserted {nums - 2} numbers");
+                    Console.WriteLine($"The average of your numbers is: {(sumav / (nums))}");
+            Console.ReadLine();
+        }
             }
             
             
-            Console.ReadLine();
+           
            //lembrar que sumav/nums=average
 
         }
