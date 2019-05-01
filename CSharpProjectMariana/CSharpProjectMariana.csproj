@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Array-lib.cs" />
     <Compile Include="Arrays.cs" />
     <Compile Include="ArraysLibrary.cs" />
     <Compile Include="Classexercise.cs" />
