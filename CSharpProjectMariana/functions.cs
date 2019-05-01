@@ -177,49 +177,92 @@ namespace CSharpProjectMariana
     }*/
             }
 
-            //pass by value function increment
-            int number1 = 10;
-            Console.WriteLine($"before calling the function the number value is{number1}");
-            Console.WriteLine($"the value inside the function is {incrementTheValue(number1)}");
-            Console.WriteLine($"after calling the function the number value is {number1}");
+            double rad = 5.2d;
+            double pi = 3.1d;
 
-            //pass by reference function decrement
-            int number2 = 10;
-            Console.WriteLine($"before calling the function the number value is{number2}");
-            Console.WriteLine($"the value inside the function is {decrementTheValue(ref number2)}");
-            Console.WriteLine($"after calling the function the number value is {number2}");
-
-            //pass by reference function transferTenDolars
-            double balance = 1000;
-            Console.WriteLine($"before calling the function the balance is{balance}");
-            Console.WriteLine($"the value inside the function is {transferTenDolars(ref balance)}");
-            Console.WriteLine($"after calling the function the balance is {balance}");
-
-
-            //pass by reference
-            double transferTenDolars(ref double money)
+            if (!true)
             {
-                money -= 10.0;
-                return money;
+                double pi2 = 3.141592d;
+                //Console.WriteLine(Math.PI)
+                Console.WriteLine(calculateCircleArea(rad, pi));//pi is 3
+                Console.WriteLine(calculateCircleArea(rad, pi2));//more precise result
+
+                // const -constant, no one can change that value 
+                const string ipNumber = "199.23.243.103";
+
+                int studentId;
+                giveAnId(out studentId);
+                studentId = 101;//that can be changed later because it is not a const
+                Console.WriteLine(studentId);
+                //ref : is pass by reference
+                //in : must be initialized before passing as a argument
+                //out : must be modified inside the method scope (scope = function)
+            }
+            if (!true)
+            {
+                //pass by value function increment
+                int number1 = 10;
+                Console.WriteLine($"before calling the function the number value is{number1}");
+                Console.WriteLine($"the value inside the function is {incrementTheValue(number1)}");
+                Console.WriteLine($"after calling the function the number value is {number1}");
+
+                //pass by reference function decrement
+                int number2 = 10;
+                Console.WriteLine($"before calling the function the number value is{number2}");
+                Console.WriteLine($"the value inside the function is {decrementTheValue(ref number2)}");
+                Console.WriteLine($"after calling the function the number value is {number2}");
+
+                //pass by reference function transferTenDolars
+                double balance = 1000;
+                Console.WriteLine($"before calling the function the balance is{balance}");
+                Console.WriteLine($"the value inside the function is {transferTenDolars(ref balance)}");
+                Console.WriteLine($"after calling the function the balance is {balance}");
+
+
+                //pass by reference
+                double transferTenDolars(ref double money)
+                {
+                    money -= 10.0;
+                    return money;
+                }
+
+
+                //pass by value
+                int incrementTheValue(int a)
+                {
+                    a += 1;
+                    return a;
+                }
+
+
+                //pass by reference
+                int decrementTheValue(ref int a)
+                {
+                    a -= 1;
+                    return a;
+                }
+            }
+            if (!true)
+            {
+                //pi value is constant will not change
+                double calculateCircleArea(double radius, in double pi)
+                {
+                    return pi * radius * radius;
+                }
+                int giveAnId(out int id)
+                {
+                    id = 100;
+                    return id;
+                }
             }
 
+            //CHALENGE: Create a method which takes 1 parameter of integer array and add all elements inside the array and returnthe result
+            //ex : [1,2,0,5] -----> pass to function --------> return (1 + 2 + 0 + 5)
+            
+            int[] Arraynovo= new int[3] {5, 15, 20};
 
-            //pass by value
-            int incrementTheValue(int a)
-            {
-                a += 1;
-                return a;
-            }
-            
-            
-            //pass by reference
-            int decrementTheValue(ref int a)
-            {
-                a -= 1;
-                return a;
-            }
+            int addArray(int num, )
 
-            
         }
     }
 }
