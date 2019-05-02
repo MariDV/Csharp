@@ -25,9 +25,7 @@ namespace CSharpProjectMariana
                 new string[] { "Couve", "Ovos", "Frango" },
                 new string[] { "Whey", "Cocada" }
             };
-            }
-            if (!true)
-            {
+           
                 //to print the index 3 array, all elements one by one
                 for (int j = 0; j < jaggedStringArr.Length; j++)
                 {
@@ -38,9 +36,7 @@ namespace CSharpProjectMariana
                     }
                     Console.WriteLine();
                 }
-            }
-            if (!true)
-            {
+            
                 //acces to the jagged array element
                 Console.Write("the value of jaggedStringArr[3][1] : ");
                 Console.WriteLine(jaggedStringArr[3][1]);//will print the second element from the 3rd array

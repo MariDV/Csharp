@@ -8,9 +8,22 @@ namespace CSharpProjectMariana
 {
     class functions
     {
-        public static void body() {
+        public static void body()
+        {
+            
             if (!true)
             {
+                //create an array
+
+                int[] Numbers = new int[10] { 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 };
+
+
+                //for (int i = 0; i < Numbers.Length; i++)
+                //{
+                //    sum += i;
+                //}
+                Console.WriteLine($"The value of sum the entire Arr is {addArr(Numbers)}!");
+
                 greetings("saygin", ConsoleColor.Green);
                 greetings("siamak", ConsoleColor.Yellow);
                 greetings("sina", ConsoleColor.DarkMagenta);
@@ -38,10 +51,8 @@ namespace CSharpProjectMariana
                 Console.WriteLine(multiply(add(4, 5), divide(20, 10)));
                 Console.ReadLine();
                 //}
-            }
 
-            if (!true)
-            {
+
 
                 //-first function-
                 //this is how I can explain what Im doing in my function
@@ -175,13 +186,10 @@ namespace CSharpProjectMariana
 
         }
     }*/
-            }
 
-            double rad = 5.2d;
-            double pi = 3.1d;
+                double rad = 5.2d;
+                double pi = 3.1d;
 
-            if (!true)
-            {
                 double pi2 = 3.141592d;
                 //Console.WriteLine(Math.PI)
                 Console.WriteLine(calculateCircleArea(rad, pi));//pi is 3
@@ -197,9 +205,7 @@ namespace CSharpProjectMariana
                 //ref : is pass by reference
                 //in : must be initialized before passing as a argument
                 //out : must be modified inside the method scope (scope = function)
-            }
-            if (!true)
-            {
+
                 //pass by value function increment
                 int number1 = 10;
                 Console.WriteLine($"before calling the function the number value is{number1}");
@@ -241,11 +247,9 @@ namespace CSharpProjectMariana
                     a -= 1;
                     return a;
                 }
-            }
-            if (!true)
-            {
+
                 //pi value is constant will not change
-                double calculateCircleArea(double radius, in double pi)
+                double calculateCircleArea(double radius, in double pii)
                 {
                     return pi * radius * radius;
                 }
@@ -254,14 +258,94 @@ namespace CSharpProjectMariana
                     id = 100;
                     return id;
                 }
+
+            }
+                //CHALENGE: Create a method which takes 1 parameter of integer array and add all elements inside the array and returnthe result
+                //ex : [1,2,0,5] -----> pass to function --------> return (1 + 2 + 0 + 5)
+
+                /// <summary>
+                /// i is the array that you need to imput to sum all value inside.
+                /// </summary>
+                /// <param name="i"></param>
+                /// <returns></returns>
+                int addArr(int[] i)
+                {
+                    int result = 0;
+                    for (int J = 0; J < i.Length; J++)
+                    {
+                        result += i[J];
+                    }
+
+                    return result;
+                }
+
+                int num = int.Parse(Console.ReadLine());
+                Console.WriteLine($"The factorial of number {num}!= ");
+
+
+                for (int i = 0; i < 16; i++)
+                {
+                    Console.WriteLine($"fibonacci({i}) = {fibo(i)} ");
+                }
+
+            
+
+            //recursion functions
+            //calculate the factorial of a number (a function that calls it self)
+            int factorial(int number)
+            {
+                if (number<=0)
+                {
+                    return -1;
+                }
+                else if(number == 1)
+                {
+                    return 1;
+                }
+                else
+                {
+                    return number * factorial(number - 1);
+                }
             }
 
-            //CHALENGE: Create a method which takes 1 parameter of integer array and add all elements inside the array and returnthe result
-            //ex : [1,2,0,5] -----> pass to function --------> return (1 + 2 + 0 + 5)
-            
-            int[] Arraynovo= new int[3] {5, 15, 20};
+           
+            //Calculate Fibonacci
+            int fibo(int number)
+            {
+                if (number == 0)
+                {
+                    return 0;
+                }
+                if (number == 1)
+                {
+                    return 1;
+                }
+                return fibo(number - 1) + fibo(number - 2);
+            }
 
-            int addArray(int num, )
+            /*Console.WriteLine("please give me a number: ");
+            int numero = int.Parse(Console.ReadLine());
+            Console.WriteLine($"The factorial of number {numero}!= ");
+            for (int i = 0; i < 30; i++)
+            {
+                Console.WriteLine($"chalen({i}) = {chalen(i)} ");
+            }
+            void chalen(int val)
+            {
+                if (val < 1)
+                {
+                    Console.WriteLine("Ivalid Value");
+                }
+                for (int i = 1; i <= val; i++)
+                {
+                   if (val % i == 0)
+                    {
+                        Console.WriteLine(i + " ") ;
+                    }
+                }
+                
+            }*/
+            
 
         }
     }

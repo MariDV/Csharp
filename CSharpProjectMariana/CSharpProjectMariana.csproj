@@ -47,6 +47,7 @@
     <Compile Include="Array-lib.cs" />
     <Compile Include="Arrays.cs" />
     <Compile Include="ArraysLibrary.cs" />
+    <Compile Include="Chalenge.cs" />
     <Compile Include="Classexercise.cs" />
     <Compile Include="ConditionalStatements.cs" />
     <Compile Include="ConvertingTypes.cs" />
