@@ -14,8 +14,9 @@ namespace CSharpProjectMariana
             // Variables.body(); // what you call here will appear when you press start, now I'm calling class variable, but if I whant other variables I must call OtherVariables.body()*/
             //ArraysLibrary.body();
             //Array_lib.body();
-            Chalenge.body();
-            Console.ReadLine();
+            //Chalenge.body();
+            //Class1.body();
+            //Console.ReadLine();
         }
 
         
