@@ -16,9 +16,10 @@ namespace objects_cat
         public double Cat_bodyLenght { get; set; }
         public int Cat_energy { get; set; }
         public double Cat_weight { get; set; }
-
+        public int Cat_hunger { get; set; }
 
         //methods
+
 
         public double Jump()
         {
@@ -55,6 +56,7 @@ namespace objects_cat
 
         void eat()
         {
+            
             if (Cat_energy<=100)
             {
                double catfood= Cat_energy + 10;
@@ -71,19 +73,14 @@ namespace objects_cat
         void sound()
         {
             Console.WriteLine("Meow =^.^=");
-
-            return;
+            Cat_energy -= 1;
+            Cat_hunger -= 1;
+         
         }
 
         bool itsHungry()
         {
-            if (Cat_energy < 50)
-
-                return true;
-            else
-            {
-                return false;
-            }
+            return Cat_hunger > 50;
         }
 
     }

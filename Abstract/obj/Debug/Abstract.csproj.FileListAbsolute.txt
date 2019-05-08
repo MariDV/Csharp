@@ -1,0 +1,7 @@
+C:\Users\mariana.vilela\Documents\CSharpProjectMariana\Abstract\bin\Debug\Abstract.exe.config
+C:\Users\mariana.vilela\Documents\CSharpProjectMariana\Abstract\bin\Debug\Abstract.exe
+C:\Users\mariana.vilela\Documents\CSharpProjectMariana\Abstract\bin\Debug\Abstract.pdb
+C:\Users\mariana.vilela\Documents\CSharpProjectMariana\Abstract\obj\Debug\Abstract.csprojAssemblyReference.cache
+C:\Users\mariana.vilela\Documents\CSharpProjectMariana\Abstract\obj\Debug\Abstract.csproj.CoreCompileInputs.cache
+C:\Users\mariana.vilela\Documents\CSharpProjectMariana\Abstract\obj\Debug\Abstract.exe
+C:\Users\mariana.vilela\Documents\CSharpProjectMariana\Abstract\obj\Debug\Abstract.pdb
